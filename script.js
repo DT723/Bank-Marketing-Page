@@ -390,19 +390,19 @@ slider();
 //DO NOT USE - will over ride all exisiting classes
 // logo.className = 'David';
 
-const h1 = document.querySelector('h1');
+// const h1 = document.querySelector('h1');
 
 //Newer Way = addEventListener
 
-const alterH1 = function (e) {
-  alert('addEventListener: Great! You are reading the heading :D');
+// const alterH1 = function (e) {
+//   alert('addEventListener: Great! You are reading the heading :D');
 
-  // h1.removeEventListener('mouseenter', alterH1);
-};
+// h1.removeEventListener('mouseenter', alterH1);
+// };
 
-h1.addEventListener('mouseenter', alterH1);
+// h1.addEventListener('mouseenter', alterH1);
 
-setTimeout(() => h1.removeEventListener('mouseenter', alterH1), 3000);
+// setTimeout(() => h1.removeEventListener('mouseenter', alterH1), 3000);
 
 // h1.onmouseenter = function (e) {
 //   alert('onmouseenter: Great! You are reading the heading :D');
